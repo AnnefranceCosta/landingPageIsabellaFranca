@@ -11,12 +11,12 @@
         /* === PALETA DE CORES (Clara, Elegante e Profissional) === */
         :root {
             --bg-white: #FFFFFF; 
-            --bg-light: #F7FAFC; /* Fundo levemente acinzentado para destacar seções */
-            --primary-blue: #1A365D; /* Azul marinho escuro (Títulos e sofisticação) */
-            --secondary-blue: #3182CE; /* Azul vibrante (Botões e destaques) */
+            --bg-light: #F7FAFC; 
+            --primary-blue: #1A365D; 
+            --secondary-blue: #3182CE; 
             --secondary-hover: #2B6CB0;
-            --text-dark: #2D3748; /* Cinza escuro confortável para ler */
-            --text-muted: #718096; /* Cinza médio */
+            --text-dark: #2D3748;
+            --text-muted: #718096; 
             --border-color: #E2E8F0;
         }
 
@@ -61,7 +61,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             text-decoration: none;
-            border-radius: 50px; /* Bordas 100% arredondadas */
+            border-radius: 50px; 
             border: 2px solid var(--secondary-blue);
             cursor: pointer;
             transition: all 0.3s ease;
@@ -149,7 +149,7 @@
         .about-image {
             width: 100%;
             height: 500px;
-            border-radius: 20px; /* Bordas arredondadas na foto também */
+            border-radius: 20px; 
             overflow: hidden;
         }
 
@@ -181,7 +181,6 @@
 
         .diff-grid {
             display: grid;
-            /* Garante que sempre fique em blocos de 2 (2x2) no desktop, resolvendo o vácuo */
             grid-template-columns: repeat(2, 1fr);
             gap: 2rem;
         }
@@ -196,7 +195,7 @@
         .diff-card {
             background-color: var(--bg-white);
             padding: 2.5rem 2rem;
-            border-radius: 15px; /* Bordas arredondadas acompanhando os botões */
+            border-radius: 15px; 
             border: 1px solid var(--border-color);
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.02);
@@ -403,7 +402,6 @@
     <script>
         /* === WHATSAPP SCRIPT === */
         function abrirWhatsApp() {
-            // Insira seu número aqui com DDI (55) e DDD. Ex: 5532999999999
             const numeroTelefone = "553284464624"; 
             
             const mensagem = "Olá! Acessei seu site e gostaria de agendar uma avaliação de Fisioterapia. Poderia me passar mais informações?";
